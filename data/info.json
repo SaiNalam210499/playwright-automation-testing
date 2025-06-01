@@ -1,0 +1,14 @@
+{ 
+    "url":"https://careers.qualcomm.com/careers?query=QA&pid=446705657547&domain=qualcomm.com&sort_by=relevance&triggerGoButton=false&triggerGoButton=true",
+    "firstName": "name1",
+    "lastName":"name2",
+    "gender":"Male",
+    "phoneNumber": "9876543210",
+    "countryCode": "India",
+    "email": "emailid12345@gmail.com",
+    "address": "address1",
+    "city": "Hyderabad",
+    "zipCode": "502379",
+    "role": "Quality Assurance"
+
+}

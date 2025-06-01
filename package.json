@@ -1,0 +1,28 @@
+{
+  "name": "jobapplyauto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "type": "module"
+  },
+  "test": "playwright test",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21",
+    "playwright": "^1.52.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jobapplyauto": "file:",
+    "playwright-core": "^1.52.0",
+    "undici-types": "^6.21.0"
+  },
+  "description": ""
+}
