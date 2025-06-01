@@ -9,7 +9,7 @@ test('Qualcomm Application', async ({page}) => {
     await page.click("//button[@data-test-id='apply-button']");
     //await page.click("//a[contains(text(),'Select file')]");
     // uploading resume
-    await page.setInputFiles("//input[@type='file']", `C:/Users/LENOVO/Downloads/SaiNalam_QAE.pdf`)
+    await page.setInputFiles("//input[@type='file']", infoReq.filePath);
     await page.click("//button[contains(text(),'Submit My Resume')]");
     // filling application details
     await page.fill("#first-name-input", infoReq.firstName);
